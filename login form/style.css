@@ -1,0 +1,38 @@
+/* removing default margin and padding */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* main section of page that contains every element */
+.wrapper {
+  padding: 0 0 100px;
+}
+
+.wrapper input {
+  background-color: #f5f8fa;
+  border-color: #f5f8fa;
+  color: #5e6278;
+}
+
+.wrapper input:focus {
+  box-shadow: none;
+}
+
+/* defining some properties and removing some bootstrap default properties */
+.submit_btn {
+  padding: 15px;
+  font-weight: 500;
+}
+
+.submit_btn:focus {
+  box-shadow: none;
+}
+
+/* setting up img size */
+.img_dim {
+  height: 100px;
+  width: 100px;
+}
